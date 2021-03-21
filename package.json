@@ -1,0 +1,30 @@
+{
+  "name": "onz-app-building",
+  "version": "1.0.0",
+  "description": "Test task for building a hierarchical JSON structure from a concept Json API",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest",
+    "run": "node concept-net/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcqueen1987/ONZ-App-building-test"
+  },
+  "keywords": [
+    "nodejs",
+    "concepts"
+  ],
+  "author": "Dongbo Xu <xdb1987@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "axios": "0.21.1",
+    "lodash": "4.17.19",
+    "typescript": "^4.2.3",
+    "webpack": "^5.27.1",
+    "webpack-cli": "^4.5.0"
+  }
+}
