@@ -1,10 +1,10 @@
-const Data = require("../dataEntity");
+const { DataUtils } = require("../dataUtils");
 const sampleData = require("./data/example");
 
 let data = null;
 
 beforeAll(() => {
-    data = new Data();
+    data = new DataUtils();
     data.addData(sampleData);
 });
 
